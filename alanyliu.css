@@ -1,0 +1,81 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    font-family: 'Lato', sans-serif !important;
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+    padding: 50px;
+}
+
+#title {
+    font-size: 48;
+    font-weight: 900;
+}
+
+.header a {
+    box-sizing: border-box;
+    display: inline;
+    margin: auto;
+    border: 50px 75px;
+    padding: 15px;
+    font-size: 28;
+    font-weight: 800;
+}
+
+.footer {
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    border: 5px 10px;
+    padding: 100px;
+}
+/* 
+.vl {
+    display: inline;
+    border-left: 6px solid black;
+    height: 500px;
+} */
+
+.senior,
+.pioneer,
+.dfa,
+.chess {
+    text-align: center;
+    box-sizing: border-box;
+    width: 47%;
+    height: 50%;
+    border: 20px 20px;
+    padding: 60px;
+    display: inline-block;
+}
+
+div h2 {
+    font-weight: 800 !important;
+}
+
+.senior {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.pioneer {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.dfa {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.chess {
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+.github,
+.meta,
+.linkedin {
+    width: 8%;
+}
