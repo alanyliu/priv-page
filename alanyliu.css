@@ -3,13 +3,14 @@
 }
 
 header {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Signika Negative', sans-serif !important;
     background-color: rgb(174, 174, 174);
     text-align: center;
     padding: 50px;
 }
 
 #title {
+    font-family: 'Signika Negative', sans-serif;
     font-size: 48;
     font-weight: 900;
 }
@@ -47,7 +48,7 @@ header {
 .chess {
     text-align: center;
     box-sizing: border-box;
-    width: 47%;
+    width: 47.3%;
     height: 50%;
     border: 3px solid black;
     padding: 60px;
@@ -61,11 +62,11 @@ header {
 
 .dfa,
 .chess {
-    margin: 15px 15px 22px 15px;
+    margin: 15px 15px 24px 15px;
 }
 
 div h2 {
-    font-weight: 800 !important;
+    font-weight: 600;
 }
 
 .senior {
