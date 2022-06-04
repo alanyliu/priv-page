@@ -23,25 +23,60 @@ header {
     font-size: 20px;
 }
 
+body {
+    width: 90%;
+}
+
 body h2 {
     text-align: left;
 }
 
-.rice {
-    padding: 25px;
-    width: 4.5%;
+body h3 {
+    padding: 10px;
+}
+
+.position {
+    text-align: justify;
+    /* box-sizing: border-box;
+    width: 40%;
+    padding-left: 50px; */
+}
+
+.subnorm {
+    width: 50%;
+    margin-left: 106.5px;
+}
+
+.subanom {
+    width: 50%;
+    margin-left: 46px;
+}
+
+.rice,
+.pioneer {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 4.2%;
+    margin-left: 20px; /* margin-left here + margin-left .norm = 45px */
 }
 
 .usfs {
     padding: 2px;
-    width: 3.5%;
+    width: 2.9%;
 }
+
 .sjsu {
-    padding: 4px;
-    width: 4%;
+    margin-top: 15px;
+    padding: 1px;
+    width: 4.5%;
 }
 
 .edu,
 .exp {
     display: inline;
+}
+
+.norm {
+    width: 50%;
+    margin-left: 25px;
 }
