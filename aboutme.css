@@ -5,6 +5,7 @@
 header {
     font-family: 'Signika Negative', sans-serif !important;
     background-color: rgb(174, 174, 174);
+    width: 110%;
     text-align: center;
     padding: 50px;
 }
@@ -15,25 +16,54 @@ header {
     font-weight: 900;
 }
 
+.break {
+    border: 1px solid black;
+    width: 80%;
+}
+
 .header a {
     box-sizing: border-box;
     display: inline;
     margin: auto;
     border: 50px 75px;
-    padding: 15px;
+    padding: 25px 15px 15px 15px;
     font-size: 28;
     font-weight: 800;
 }
 
+.colorblock {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    padding: 50px;
+    background-color: rgba(252, 183, 33, 0.3);
+    z-index: -1;
+}
+
+.picture {
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 45%;
+    width: 35%;
+    height: 70%;
+    z-index: 1;
+}
+
 .intro {
     box-sizing: border-box;
-    margin: 10px 50px;
+    margin: 10px 10%;
     padding: 40px;
     text-align: center;
     font-size: 20px;
 }
 
-a:visited {
+a:hover {
+    color: white;
+}
+
+a {
     color: blue;
 }
 
@@ -43,6 +73,7 @@ body {
 
 body h2 {
     text-align: left;
+    padding-left: 3%;
 }
 
 body h3 {
@@ -56,27 +87,56 @@ body h3 {
     padding-left: 50px; */
 }
 
-.subnorm {
+.sub { /* Rice */
+    box-sizing: border-box;
     width: 50%;
-    margin-left: 106.5px;
+    margin-left: 12.1%; /* 109px */
+}
+
+
+.subnorm {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 12.2%; /* 111px */
 }
 
 .subanom {
+    box-sizing: border-box;
     width: 50%;
-    margin-left: 46px;
+    margin-left: 7.4%; /* 50.5px */
 }
 
-.rice,
-.pioneer {
+.rice {
     box-sizing: border-box;
     padding: 5px;
     width: 4.2%;
-    margin-left: 20px; /* margin-left here + margin-left .norm = 45px */
+    margin-left: 5.1%; /* 20px */
+    z-index: -2;
+}
+
+.pioneer {
+    box-sizing: border-box;
+    padding: 2.3px;
+    width: 5.5%;
+    margin-left: 4.65%; /* 15px */
+    color: rgba(252, 183, 33, 0.3);
+    z-index: -2;
+}
+
+.piano,
+.book,
+.chinaway {
+    box-sizing: border-box;
+    padding: 1px;
+    width: 6%;
+    margin-left: 4.7%; /* 15px */
+    z-index: -2;
 }
 
 .usfs {
     padding: 2px;
     width: 2.9%;
+    margin-left: 3.4%;
 }
 
 .sjsu {
@@ -86,11 +146,26 @@ body h3 {
 }
 
 .edu,
-.exp {
+.exp,
+.vol {
     display: inline;
 }
 
 .norm {
     width: 50%;
     margin-left: 25px;
+}
+
+.norm2 {
+    width: 50%;
+    margin-left: 14.75px;
+}
+
+.norm3 {
+    width: 50%;
+    margin-left: 8.5px;
+}
+
+.years {
+    font-size: 14px;
 }
