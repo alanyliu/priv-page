@@ -1,0 +1,121 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: gold;
+}
+
+#title {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 48;
+    font-weight: 900;
+    color: black;
+}
+
+#subtitle {
+    font-size: 20px;
+    font-weight: 350;
+    color: black;
+}
+
+header {
+    font-family: 'Signika Negative', sans-serif !important;
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.break {
+    border: 1px solid black;
+    width: 80%;
+}
+
+.header a {
+    box-sizing: border-box;
+    display: inline;
+    margin: auto;
+    border: 50px 75px;
+    padding: 25px 15px 15px 15px;
+    font-size: 28;
+    font-weight: 800;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: blue;
+}
+
+.colorblock {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    resize: none;
+    padding: 50px;
+    z-index: -1;
+}
+
+.rice {
+    height: 2256px;
+    background-color: rgba(0, 13, 131, 0.8);
+}
+
+.hawaii {
+    height: 3950px;
+    background-color: rgba(211, 143, 8, 0.8);
+}
+
+/* .china {
+    background-color: rgba(17, 2, 114, 0.8);
+} */
+
+h1 {
+    margin-left: 20px;
+    font-size: 42px;
+}
+
+h2 {
+    margin-left: 32px;
+    font-size: 28px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.text-center {
+    text-align: center;
+}
+
+/* img {
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 20px;
+    padding: 15px;
+} */
+
+img {
+    border: 1px solid gold;
+}
+
+/* figcaption {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 35px;
+} */
+
+.subscript {
+    font-size: 16px;
+    text-align: right;
+}
