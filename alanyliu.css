@@ -10,9 +10,20 @@ header {
 }
 
 #title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60;
+    font-weight: 1000;
+}
+
+#subtitle {
     font-family: 'Signika Negative', sans-serif;
-    font-size: 48;
-    font-weight: 900;
+    font-size: 30;
+    font-weight: 400;
+}
+
+.break {
+    border: 1px solid black;
+    width: 80%;
 }
 
 .header a {
@@ -20,27 +31,10 @@ header {
     display: inline;
     margin: auto;
     border: 50px 75px;
-    padding: 15px;
+    padding: 25px 15px 15px 15px;
     font-size: 28;
     font-weight: 800;
 }
-
-.footer {
-    box-sizing: border-box;
-    font-size: 18px;
-    text-align: center;
-    background-color: rgba(0, 0, 255, 0.9);
-    color: white;
-    margin: auto;
-    border: 5px 10px;
-    padding: 70px;
-}
-/* 
-.vl {
-    display: inline;
-    border-left: 6px solid black;
-    height: 500px;
-} */
 
 .senior,
 .pioneer,
@@ -48,10 +42,14 @@ header {
 .chess {
     text-align: center;
     box-sizing: border-box;
-    width: 47.3%;
-    height: 50%;
+    /* width: 570px; */
+    height: 350px;
+    width: 47.8%;
+    /* height: 50%; */
+    margin: auto;
     border: 3px solid black;
-    padding: 60px;
+    padding: 4%;
+    /* padding: 40px; */
     display: inline-block;
 }
 
@@ -63,10 +61,6 @@ header {
 .dfa,
 .chess {
     margin: 15px 15px 24px 15px;
-}
-
-div h2 {
-    font-weight: 600;
 }
 
 .senior {
@@ -102,7 +96,7 @@ a:hover {
     color: white;
 }
 
-a:visited {
+a {
     color: blue;
 }
 
@@ -118,21 +112,53 @@ a:visited {
     background-color: rgba(255, 0, 255, 0.5);
 }
 
+div h2 {
+    font-weight: 600;
+    height: 70px;
+    overflow: hidden;
+}
+
+.description {
+    height: 60px;
+}
+
 .github,
 .meta,
 .linkedin {
-    width: 8%;
+    width: 6%;
 }
 
 .form {
     margin-bottom: 10px;
 }
 
+.footer {
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.9);
+    color: white;
+    margin: auto;
+    border: 5px 10px;
+    padding: 25px;
+}
+/* 
+.vl {
+    display: inline;
+    border-left: 6px solid black;
+    height: 500px;
+} */
+
+#copyright {
+    font-size: 14px;
+}
+
 #feedback {
     background-color: rgb(71, 129, 160);
     color: white;
     width: 7%;
-    height: 4%;
+    height: 5%;
     font-size: 16px;
     border: 2px solid black;
+    margin-top: 10px;
 }
