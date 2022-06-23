@@ -1,19 +1,27 @@
 * {
     font-family: 'Open Sans', sans-serif;
-}
-
-header {
-    font-family: 'Signika Negative', sans-serif !important;
-    background-color: rgb(174, 174, 174);
-    width: 110%;
-    text-align: center;
-    padding: 50px;
+    color: gold;
 }
 
 #title {
     font-family: 'Signika Negative', sans-serif;
     font-size: 48;
     font-weight: 900;
+    color: black;
+}
+
+#subtitle {
+    font-size: 20px;
+    font-weight: 350;
+    color: black;
+}
+
+header {
+    font-family: 'Signika Negative', sans-serif !important;
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+    text-align: center;
+    padding: 50px;
 }
 
 .break {
@@ -31,34 +39,6 @@ header {
     font-weight: 800;
 }
 
-.colorblock {
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    height: 140%;
-    padding: 50px;
-    background-color: rgba(252, 183, 33, 0.3);
-    z-index: -1;
-}
-
-.picture {
-    position: absolute;
-    box-sizing: border-box;
-    margin-top: 5%;
-    margin-left: 45%;
-    width: 35%;
-    height: 70%;
-    z-index: 1;
-}
-
-.intro {
-    box-sizing: border-box;
-    margin: 10px 10%;
-    padding: 40px;
-    text-align: center;
-    font-size: 20px;
-}
-
 a:hover {
     color: white;
 }
@@ -67,105 +47,89 @@ a {
     color: blue;
 }
 
-body {
-    width: 90%;
-}
-
-body h2 {
-    text-align: left;
-    padding-left: 3%;
-}
-
-body h3 {
-    padding: 10px;
-}
-
-.position {
-    text-align: justify;
-    /* box-sizing: border-box;
-    width: 40%;
-    padding-left: 50px; */
-}
-
-.sub { /* Rice */
+.location {
     box-sizing: border-box;
-    width: 50%;
-    margin-left: 12.1%; /* 109px */
+    padding: 20px;
 }
 
-
-.subnorm {
-    box-sizing: border-box;
-    width: 50%;
-    margin-left: 12.2%; /* 111px */
+.location a {
+    padding: 30px;
 }
 
-.subanom {
+.colorblock {
     box-sizing: border-box;
-    width: 50%;
-    margin-left: 7.4%; /* 50.5px */
+    position: absolute;
+    width: 100%;
+    resize: none;
+    padding: 50px;
+    z-index: -1;
 }
 
 .rice {
+    height: 2256px;
+    background-color: rgba(0, 13, 131, 0.8);
+}
+
+.hawaii {
+    height: 3935px;
+    background-color: rgba(211, 143, 8, 0.8);
+}
+
+.sf {
+    height: 1690px;
+    background-color: rgba(14, 155, 187, 0.8);
+}
+
+/* .china {
+    background-color: rgba(17, 2, 114, 0.8);
+} */
+
+h1 {
+    margin-left: 20px;
+    font-size: 42px;
+}
+
+h2 {
+    margin-left: 32px;
+    font-size: 28px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.text-center {
+    text-align: center;
+}
+
+/* img {
     box-sizing: border-box;
-    padding: 5px;
-    width: 4.2%;
-    margin-left: 5.1%; /* 20px */
-    z-index: -2;
-}
-
-.pioneer {
-    box-sizing: border-box;
-    padding: 2.3px;
-    width: 5.5%;
-    margin-left: 4.65%; /* 15px */
-    color: rgba(252, 183, 33, 0.3);
-    z-index: -2;
-}
-
-.piano,
-.book,
-.chinaway {
-    box-sizing: border-box;
-    padding: 1px;
-    width: 6%;
-    margin-left: 4.7%; /* 15px */
-    z-index: -2;
-}
-
-.usfs {
-    padding: 2px;
-    width: 2.9%;
-    margin-left: 3.4%;
-}
-
-.sjsu {
-    margin-top: 15px;
-    padding: 1px;
-    width: 4.5%;
-}
-
-.edu,
-.exp,
-.vol {
     display: inline;
+    margin-left: 20px;
+    padding: 15px;
+} */
+
+img {
+    border: 1px solid gold;
 }
 
-.norm {
-    width: 50%;
-    margin-left: 25px;
-}
+/* figcaption {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 35px;
+} */
 
-.norm2 {
-    width: 50%;
-    margin-left: 14.75px;
-}
-
-.norm3 {
-    width: 50%;
-    margin-left: 8.5px;
-}
-
-.years {
-    font-size: 14px;
+.subscript {
+    font-size: 16px;
+    text-align: right;
 }
