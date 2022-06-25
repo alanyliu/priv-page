@@ -5,13 +5,13 @@
 
 #title {
     font-family: 'Signika Negative', sans-serif;
-    font-size: 48;
+    font-size: 42;
     font-weight: 900;
     color: black;
 }
 
 #subtitle {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 350;
     color: black;
 }
@@ -47,6 +47,20 @@ a {
     color: blue;
 }
 
+.location {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.location a {
+    padding: 30px;
+}
+
+.location a:hover {
+    color: black !IMPORTANT;
+}
+
 .colorblock {
     box-sizing: border-box;
     position: absolute;
@@ -62,13 +76,22 @@ a {
 }
 
 .hawaii {
-    height: 3950px;
+    height: 3935px;
     background-color: rgba(211, 143, 8, 0.8);
 }
 
-/* .china {
-    background-color: rgba(17, 2, 114, 0.8);
-} */
+.sf {
+    height: 1744px;
+    background-color: rgba(14, 155, 187, 0.8);
+}
+
+.china {
+    height: 2765px;
+    background-color: rgba(190, 17, 2, 0.8);
+}
+
+/* COLOR TO USE
+background-color: rgba(17, 2, 114, 0.8); */
 
 h1 {
     margin-left: 20px;
