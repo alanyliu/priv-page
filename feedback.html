@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="feedback.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Vollkorn&family=Signika+Negative&display=swap" rel="stylesheet">
+        <title>Questions and Feedback Form</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Questions or Feedback?</h1>
+            <h4>Contact Alan Liu at ayl8@rice.edu.</h4>
+        </header>
+
+        <p class="colorblock"></p>
+
+        <hr>
+
+        <form>
+            <section class="feedback">
+                <input id="left" class="info" type="text" name="full-name" placeholder="Name" pattern="[A-Za-z-\.\s]{1-40}" required/><span style="color:red">*</span>
+                <input class="info" type="text" name="email" placeholder="Email" pattern="[A-Za-z0-9-!#$%&]+@[a-z]{2,20}\.(com|edu|org)" required/><span style="color:red">*</span>
+
+                <hr>
+                <hr>
+
+                <label for="thoughts" id="question">Please let me know what you think about the website.</label>
+                <br>
+                <textarea id="thoughts" name="thoughts" rows="5" cols="50"></textarea>
+
+                <hr>
+
+                <label for="rating" id="question">How would you rate this website?</label>
+                <br>
+                <input id="input" type="range" name="rating" id="rating" value="5" min="1" max="5" step="0.5" oninput="this.nextElementSibling.value = this.value" style="padding:0;">
+                <output>5</output>/5
+                <!-- <script>
+                    document.getElementById("input").oninput = function() {
+                        var value = (this.value-this.min)/(this.max-this.min)*100;
+                        this.style.background = 'linear-gradient(to left, #2dff2d 0%, #2dff2d ' + value + '%, #e8a136 ' + value + '%, d33a3a 100%)'
+                    };
+                </script> -->
+
+                <hr>
+
+                <label for="suggestions" id="question">Do you have any suggestions for this website or what else you would like to see?</label>
+                <br>
+                <textarea id="suggestions" name="suggestions" rows="3" cols="50"></textarea>
+            </section>
+
+            <hr>
+
+            <section class="questions">
+                <label for="questions" id="question">If you have any questions about me or anything on this website, feel free to let me
+                    know below!</label>
+                <br>
+                <textarea id="questions" name="questions" rows="5" cols="50"></textarea>
+            </section>
+
+            <hr>
+            <hr>
+
+            <section class="submission">
+                <!-- <button id="submit"/>
+                    <script>
+                    document.getElementById("submit").addEventListener("click", postSubmission);
+                    function postSubmission() {
+                        window.location.href="./alanyliu.html";
+                        console.log("Thanks for submitting a form!");
+                    }
+                    </script>
+                Submit</button> -->
+
+                <div id="my_form" style="width:100%;">
+                    <button id="nextStep">Submit</button>
+                </div>
+                
+                <div id="thank_you" style="display: none;">
+                    <p>Thanks for your response!</p>
+                    <button id="submit" type="submit">Back to Home Page</button>
+                </div>
+                
+                <script>
+                    var nextStep = document.querySelector('#nextStep');
+                    
+                    nextStep.addEventListener('click', function (thank) {
+                        thank.preventDefault();
+                        // Hide first view
+                        document.getElementById('my_form').style.display = 'none';
+                    
+                        // Show thank you message element
+                        document.getElementById('thank_you').style.display = 'block';
+
+                        document.getElementById("submit").addEventListener("click", postSubmission);
+                    })
+                    
+                    function postSubmission() {
+                        window.location.href="./alanyliu.html";
+                    }
+                </script>
+            </section>
+
+              </script>
+        </form>
+    </body>
+
+</html>
