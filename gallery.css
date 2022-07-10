@@ -5,7 +5,7 @@
 
 #title {
     font-family: 'Signika Negative', sans-serif;
-    font-size: 42;
+    font-size: 36px;
     font-weight: 900;
     color: black;
 }
@@ -49,7 +49,7 @@ a {
 
 .location {
     box-sizing: border-box;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -74,24 +74,26 @@ a {
     height: 2256px;
     background-color: rgba(0, 13, 131, 0.8);
 }
-
 .hawaii {
     height: 3935px;
     background-color: rgba(211, 143, 8, 0.8);
 }
-
 .sf {
     height: 1744px;
     background-color: rgba(14, 155, 187, 0.8);
 }
-
 .china {
-    height: 2765px;
+    height: 2766px;
     background-color: rgba(190, 17, 2, 0.8);
 }
-
-/* COLOR TO USE
-background-color: rgba(17, 2, 114, 0.8); */
+.cancun {
+    height: 1231px;
+    background-color: rgba(17, 2, 114, 0.8);
+}
+.monterey {
+    height: 2256px;
+    background-color: rgba(6, 199, 48, 0.8)
+}
 
 h1 {
     margin-left: 20px;
